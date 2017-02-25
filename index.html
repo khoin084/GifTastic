@@ -1,0 +1,54 @@
+<!--
+*Developer:Khoi Nguyen
+*Date: 2/22/2017
+*UCSD Code Bootcamp: Homework #6
+-->
+
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <!--Linking viewport, regular zoom 100% across various devices.-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> GifTastic </title>
+  <!--Linking bootstrap css to leverage classes for RWD-->
+  <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+  <!--Link after boostrap so that it does not overwrite my styles.-->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  
+  
+</head>
+<!--need to onload the entire page before performing any JS, i.e. wait for page to fully load.-->
+<body>
+  <div class="jumbotron well" id="place-btns">
+    
+  </div>
+  <div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-9 well" id="place-gifs">
+          <!--new image gifs are placed in here.-->
+        </div>
+        <div class="col-sm-3 well">
+          <div class="panel-body">
+            <form role="form">
+              <div class="form-group">
+                <label for="search">
+                  Add a Superhero
+                </label>
+                <input type="text" class="form-control" name="hero" id="searchTerm">
+                <button type="button" class="btn btn-lg btn-info" id="submit-btn">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+    </div>
+  </div>
+</body>
+
+<!-- Added link to the jQuery Library -->
+<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+<!--Linking javascript-->
+<script type="text/javascript" src="assets/javascript/app.js"></script>
+
+</html>

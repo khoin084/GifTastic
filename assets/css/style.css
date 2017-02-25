@@ -1,0 +1,26 @@
+/**
+*Developer:Khoi Nguyen
+*Date: 2/5/2017
+*UCSD Code Bootcamp: Homework #4
+**/
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: fantasy;
+  font-size: 24px;
+  color: black;
+  line-height: 34px;
+  /*background: url("../images/mainBG.png");*/
+}
+.container-gif {
+	width: 32%;
+	margin: 0;
+	display: inline-block;
+}
+.btn {
+	margin: 10px;
+}
+
+
+
